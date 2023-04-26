@@ -1,0 +1,124 @@
+html {
+    background-color: #1E243A;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: url('cursors/cursor-dino.png'), auto;
+}
+
+.layout-grid-center {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    max-width: 75vw;
+}
+
+.nav-container {
+    /* width: 100vw;
+    height: 5vh;
+    top: 0; */
+    background-color: #1E243A;
+    box-shadow: 10px 5px 10px black;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.nav-left, .nav-right {
+    list-style-type: none;
+}
+
+.nav-left li, .nav-right li {
+    display: inline-block;
+}
+
+.nav-left a, .nav-right a {
+    color: #8BFFF1;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 12pt;
+    padding: 0 14px;
+}
+
+a:hover {
+    font-weight: bolder;
+    color: white;
+    cursor: url('cursors/cursor-wand.png'), auto;
+}
+
+
+div.intro-container {
+    min-height: 75vh;
+    text-align: center;
+}
+
+div.intro-section {
+    display: inline-block;
+    padding: 5rem 0;
+    max-width: 30vw;
+    vertical-align: middle;
+    border-radius: 25px;
+}
+
+div.intro-text {
+    text-align: left;
+    margin: 0 13vw 0 0;
+}
+
+div.intro-img {
+    text-align: right;
+}
+
+p#intro-greeting {
+    font-size: 30px;
+    margin: 0;
+}
+
+p#intro-name {
+    font: 48pt Arial;
+    font-weight: bold;
+    margin: 5px 0 20px 0;
+    background: -webkit-linear-gradient(-80deg, #FFF06A, #37E7FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p#intro-bio {
+    font-size: 32px;
+    margin: 0;
+}
+
+img#intro-pic {
+    border-radius: 50px;
+}
+
+
+
+div.summary-container {
+    background-color: #44495C;
+    height: 50vh;
+    text-align: center;
+    margin: 0;
+}
+
+div.summary-box {
+    background-color: #1E243A;
+    display: inline-block;
+    padding: 3rem 3rem;
+    margin: 20px;
+    max-width: 15vw;
+    vertical-align: middle;
+    border-radius: 25px;
+}
+
+div.summary-box h1 {
+    font-size: 18pt;
+    color: #8BFFF1;
+}
+
+div.summary-box p {
+    font-size: 11pt;
+}
