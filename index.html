@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <header class="nav-section">
         <nav class="nav-container layout-grid-center">
-
             <ul class="nav-left">
                 <li><a class="nav-link" href="#" id="nav-home">Home</a></li>
             </ul>
@@ -20,20 +19,25 @@
                 <li><a class="nav-link" href="#" id="nav-contact">Contact</a></li>
             </ul>
         </nav>
-    </div>
+    </header>
     
-    <div class="intro-container layout-grid-center">  
-        <div class="intro-section intro-text">
+    <section class="intro-container layout-grid-center">  
+        <div class="intro-section intro-text-area">
             <p id="intro-greeting">Hello! My name is</p>
             <p id="intro-name">Vanessa Cheung</p>
-            <p id="intro-bio">I'm a Full-Stack Developer with</p>
-            <p id="intro-bio">a background in UX/UI Design.</p>
+            <p id="intro-bio">I'm a Full-Stack Developer with a background in UX/UI Design.</p>
+            <div class="external-links">
+                <a href="https://google.com" class="external-btn" id="resume-btn" target="_blank" rel="noopener noreferrer">View Resume</a>
+                <a href="https://github.com/vanessaskylar" class="external-btn" id="github-btn" target="_blank" rel="noopener noreferrer"><img src="icons/icon-github.png" alt="github icon"></a>
+                <a href="https://www.linkedin.com/in/vanessaskylar/" class="external-btn" id="linkedin-btn" target="_blank" rel="noopener noreferrer"><img src="icons/icon-linkedin.png" alt="linkedin icon"></a>
+            </div>
         </div>
-        <div class="intro-section intro-img">
-            <img src="anime-coder.gif" id="intro-pic" alt="anime girl coding" width="504" height="504">
+        <div class="intro-section intro-img-area">
+            <img src="images/anime-coder.gif" id="intro-pic" alt="anime girl coding">
         </div>
-    </div>
-    <div class="summary-container">
+    </section>
+
+    <section class="summary-container">
         <div class="layout-grid-center">
             <div class="summary-box box1">
                 <h1>Title 1</h1>
@@ -48,7 +52,38 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="about-me-container layout-grid-center">
+        <div class="about-me-div about-me-text">
+            <h1>About Me</h1>
+            <img src="images/title-underline.png">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+        </div>
+        <div class="about-me-div about-me-pic">
+            <img src="images/profile-pic.jpg" alt="profile picture">
+        </div>
+    </section>
+
+    <section class="projects-container layout-grid-center">
+        <h1>Projects</h1>
+        <img src="images/title-underline.png">
+        <div class="project-preview" id="project1">
+
+        </div>
+        <div class="project-preview" id="project2">
+            
+        </div>
+        <div class="project-preview" id="project3">
+            
+        </div>
+        <div class="project-preview" id="project4">
+            
+        </div>
+    </section>
+
+
+
     <script src="portfolio.js"></script>
 </body>
 </html>

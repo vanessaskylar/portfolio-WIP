@@ -7,4 +7,4 @@ function cursor() {
     }).mouseout(function() {
         $('.cursor').hide();
     })
-};
+}
